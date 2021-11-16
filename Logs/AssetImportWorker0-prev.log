@@ -1,0 +1,153 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1288; Version 2004; 64bit' Language: 'en' Physical Memory: 16297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/pixel/OneDrive/Documents/UnityProjects/Optimization-Exam-XR-Interaction-STUDENT
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58328
+Successfully changed project path to: C:/Users/pixel/OneDrive/Documents/UnityProjects/Optimization-Exam-XR-Interaction-STUDENT
+C:/Users/pixel/OneDrive/Documents/UnityProjects/Optimization-Exam-XR-Interaction-STUDENT
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.90 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.94 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pixel/OneDrive/Documents/UnityProjects/Optimization-Exam-XR-Interaction-STUDENT/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   30.0.14.7141
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001938 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.89 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.811 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.80 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\pixel\OneDrive\Documents\UnityProjects\Optimization-Exam-XR-Interaction\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\pixel\OneDrive\Documents\UnityProjects\Optimization-Exam-XR-Interaction\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: C:/Users/pixel/OneDrive/Documents/UnityProjects/Optimization-Exam-XR-Interaction/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3683.
+Total: 2.935800 ms (FindLiveObjects: 0.349500 ms CreateObjectMapping: 0.082800 ms MarkObjects: 2.434000 ms  DeleteObjects: 0.068200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Models/trampoline 1.fbx
+  artifactKey: Guid(fa4cb9a58bba7644ab5c389be626c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trampoline 1.fbx using Guid(fa4cb9a58bba7644ab5c389be626c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3881d2637df036cf0648776bfc18d9') in 0.264873 seconds
+  Import took 0.270434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.957525 seconds.
+  path: Assets/Models/trampoline 1.fbx
+  artifactKey: Guid(fa4cb9a58bba7644ab5c389be626c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trampoline 1.fbx using Guid(fa4cb9a58bba7644ab5c389be626c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4027e4ebae4416fbe1187fdb9414211') in 0.011078 seconds
+  Import took 0.016330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004868 seconds.
+  path: Assets/Models/trampoline 1.fbx
+  artifactKey: Guid(fa4cb9a58bba7644ab5c389be626c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trampoline 1.fbx using Guid(fa4cb9a58bba7644ab5c389be626c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4027e4ebae4416fbe1187fdb9414211') in 0.016804 seconds
+  Import took 0.022441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.361609 seconds.
+  path: Assets/Textures/trampoline.png
+  artifactKey: Guid(9a6ce778251add14a9c71dfb50ac5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/trampoline.png using Guid(9a6ce778251add14a9c71dfb50ac5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7a9fb7599c7a98951be7a852f0073c') in 0.029897 seconds
+  Import took 0.037067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008704 seconds.
+  path: Assets/Textures/trampoline.png
+  artifactKey: Guid(9a6ce778251add14a9c71dfb50ac5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/trampoline.png using Guid(9a6ce778251add14a9c71dfb50ac5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7a9fb7599c7a98951be7a852f0073c') in 0.008977 seconds
+  Import took 0.014723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.102825 seconds.
+  path: Assets/Models/trampoline 1.fbx
+  artifactKey: Guid(fa4cb9a58bba7644ab5c389be626c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/trampoline 1.fbx using Guid(fa4cb9a58bba7644ab5c389be626c084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35055622d8d62a19907dd1486e50004') in 0.014462 seconds
+  Import took 0.019841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.887483 seconds.
+  path: Assets/Prefabs/Trampoline.prefab
+  artifactKey: Guid(04abf64b514e54b4ebcbea59c6b77eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Trampoline.prefab using Guid(04abf64b514e54b4ebcbea59c6b77eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260831113866cd39bd26271ecb1db8b9') in 0.021346 seconds
+  Import took 0.026961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.601656 seconds.
+  path: Assets/Prefabs/TrampolineAir.prefab
+  artifactKey: Guid(c064c247e283e8e48ace16947974b298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TrampolineAir.prefab using Guid(c064c247e283e8e48ace16947974b298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bab9c589f437e6bb3888183a7d26e05') in 0.004834 seconds
+  Import took 0.010388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003585 seconds.
+  path: Assets/Prefabs/TrampolineAir.prefab
+  artifactKey: Guid(c064c247e283e8e48ace16947974b298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TrampolineAir.prefab using Guid(c064c247e283e8e48ace16947974b298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bab9c589f437e6bb3888183a7d26e05') in 0.003931 seconds
+  Import took 0.009359 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
