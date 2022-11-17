@@ -4,21 +4,10 @@ using UnityEngine;
 
 public class Trampoline : MonoBehaviour {
 
-    public ParticleSystem pSystem;
-    public GameManager scoreScript;
-
-	// Use this for initialization
-	void Start () 
-    {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        scoreScript = GameObject.Find("GameManager").GetComponent<GameManager>();
-        pSystem = GetComponentInChildren<ParticleSystem>();
-
-	}
+    [SerializeField]
+     ParticleSystem pSystem;
+    [SerializeField]
+     GameManager scoreScript;
 
     void OnCollisionEnter(Collision col)
     {
@@ -28,8 +17,6 @@ public class Trampoline : MonoBehaviour {
             scoreScript.score++;
             //Particle effect
             pSystem.Play();
-
-            Debug.Log("Trampoline Hit");
         }
 
     }
