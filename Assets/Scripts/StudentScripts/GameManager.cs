@@ -1,20 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour {
-
+public class GameManager : MonoBehaviour 
+{
+    [SerializeField]
+    Text scoreText, scoreText2;
     public int score;
 
-	// Use this for initialization
-	void Start () 
-	{
-		
-	}
+    public void UpdateScore()
+    {
+        score++;
+        scoreText.text = "Score" + score;
+        scoreText2.text = "Score" + score;
+    }
 	
-	// Update is called once per frame
-	void Update () 
-	{
-		Debug.Log(score);
-	}
 }
