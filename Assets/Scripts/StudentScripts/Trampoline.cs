@@ -17,10 +17,12 @@ public class Trampoline : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
+        pSystem = col.GetContact(0).thisCollider.gameObject.GetComponent<ParticleSystem>();
+
         if (col.gameObject.CompareTag("Throwable"))
         {
             //Score Point
-            scoreScript.score++;
+            scoreScript.UpdateScore();
             //Particle effect
             pSystem.Play();
         }
