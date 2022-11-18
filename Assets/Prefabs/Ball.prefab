@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 135741222558815520}
   - component: {fileID: 54488211640829626}
   - component: {fileID: 8324765281418393775}
+  - component: {fileID: 1790936438381969314}
   m_Layer: 10
   m_Name: Ball
   m_TagString: Throwable
@@ -184,3 +185,16 @@ MonoBehaviour:
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1
+--- !u!114 &1790936438381969314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908740183788336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d17f3b4b97cea3a4bac17d12e651c846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeSpan: 10
